@@ -2,7 +2,9 @@
 
 ============
 
-Welcome to the repository for the U.S. EPA Python Community of Practice.  This repository is for code, documentation, presentations, Jupyter notebooks, and other open source materials.  If you would like to contribute to this repository please follow the guidelines in [CONTRIBUTING](CONTRIBUTING.md).
+Welcome to the repository for the U.S. EPA Python Community of Practice.  This repository is for code, documentation, presentations, Jupyter notebooks, and other open source materials.  
+
+When you contribute to this repository, please follow the guidelines that the EPA R Group has created in their [CONTRIBUTING](https://github.com/USEPA/R-User-Group/blob/master/CONTRIBUTING.md#how-to-contribute-to-r-user-group) page.  We may be adapting the steps and recommendations they have designed, making some changes to match our needs, but in the meantime, please follow their guidelines.
 
 This repository is released under the [Creative Commons Zero public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
