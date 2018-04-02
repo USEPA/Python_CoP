@@ -4,7 +4,7 @@
 
 Welcome to the repository for the U.S. EPA Python Community of Practice.  This repository is for code, documentation, presentations, Jupyter notebooks, and other open source materials.  If you would like to contribute to this repository please follow the guidelines in [CONTRIBUTING](CONTRIBUTING.md).
 
-This repository is released under the [Creative Commons Zero public domain dedication](LICENSE).
+This repository is released under the [Creative Commons Zero public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
 # EPA Disclaimer
 
