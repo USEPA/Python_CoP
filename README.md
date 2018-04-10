@@ -1,7 +1,7 @@
 ## Python_CoP
 
 
-Welcome to the repository for the United States Environmental Protection Agency (EPA) Python Community of Practice.  This repository is for code, documentation, presentations, Jupyter notebooks, and other open source materials.  
+Welcome to the repository for the United States Environmental Protection Agency (EPA) Python Community of Practice.  This repository is for code, documentation, presentations, Jupyter notebooks, and other open source materials.
 
 When you contribute to this repository, please follow the guidelines that the EPA R Group has created in their [CONTRIBUTING](https://github.com/USEPA/R-User-Group/blob/master/CONTRIBUTING.md#how-to-contribute-to-r-user-group) page.  We may be adapting the steps and recommendations they have designed, making some changes to match our needs, but in the meantime, please follow their guidelines.
 
