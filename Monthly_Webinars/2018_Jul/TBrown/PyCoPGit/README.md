@@ -4,7 +4,7 @@ This folder houses a presentation which you can
 [view online](http://tbnorth.github.io/PyCoPGit).
 
 The content of the presentation is in
-[PyCoPGit](./PyCoPGit.md)
+[PyCoPGit.md](./PyCoPGit.md)
 
 ## Python CoP presentation details
 
