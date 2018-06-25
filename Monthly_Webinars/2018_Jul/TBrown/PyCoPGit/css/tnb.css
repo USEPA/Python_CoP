@@ -1,0 +1,28 @@
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    text-transform: none;
+    color: #0684dd;
+    font-size: 2em;
+    }
+
+.hide-head h1, .hide-head h2, .hide-head h3, .hide-head h4, .hide-head h5,
+    .hide-head h6 {
+    display: none;
+    }
+.reveal code {
+    display: inline-block;
+    background: #333;
+    border-radius: 8px;
+    padding-left: 4px;
+    padding-right 4px;
+    color: #fc6;
+    }
+
+body {
+    /* background-image: url("/img/21Mar2017Sentinel.png"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+
+.reveal section img {
+    border: none;
+    }
