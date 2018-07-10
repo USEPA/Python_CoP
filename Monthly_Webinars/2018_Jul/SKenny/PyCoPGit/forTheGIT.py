@@ -1,6 +1,6 @@
 
 # Sharon D. Kenny
-# Writing a program for git
+# Writing a program for GitHub tutorial
 
 print("Hello world")
 
