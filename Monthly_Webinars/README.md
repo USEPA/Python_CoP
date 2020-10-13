@@ -13,3 +13,7 @@ August - Marc Weber - [Spatial](./2018_August/Weber/)
 March - Risa Sayre - [Data mining](./March_2019/)
 
 July - Terry Brown - [R from Python](./2019_Jul/)
+
+### 2020
+
+October - Terry Brown - [Django web apps.](./2020_October/)
