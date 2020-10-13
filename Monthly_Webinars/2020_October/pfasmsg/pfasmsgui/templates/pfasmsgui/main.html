@@ -1,0 +1,45 @@
+{% extends "./base.html" %}
+{% load static %}
+
+{# add CSS link in <head/> tag, could really be in base.html, but this shows
+how pages can add things to head when they need to (javascript as well) #}
+{% block extra_head %}
+  {{ block.super }}
+  <link rel="stylesheet" href="{% static "pfasmsgui/css/pfasmsgui.css" %}"/>
+{% endblock %}
+
+{% block content %}
+  {{ block.super }}
+
+<center>
+
+<h2>PFAS Message Board</h2>
+
+  {# Could make this more dynamic, get column headings from model etc. #}
+  <table>
+    <tr><th>Time</th><th>IP</th><th>Message</th><th>Priority</th></tr>
+    {% for msg in messages %}
+    <tr>
+      <td>{{msg.timestamp}}</td>
+      <td>{{msg.ip}}</td>
+      <td>{{msg.message}}</td>
+      <td>{{msg.priority}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <p>
+  <form method="POST" url="">{% csrf_token %}
+  {# CSRF Cross Site Request Forgery, token used to prevent #}
+  {# Empty url was an oversight, but it works :) because the url's the same #}
+  {# for GET (display) and POST (update) methods.  POST redirects to GET to #}
+  {# show new data. #}
+  {{msg_form}}  {# ModelForm object from Django, knows how to represent itself #}
+                {# as HTML <input/> tags etc. #}
+  <input type="submit" value="Send" />
+  </form>
+  </p>
+
+</center>
+{% endblock %}
+
