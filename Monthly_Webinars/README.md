@@ -17,3 +17,7 @@ July - Terry Brown - [R from Python](./2019_Jul/)
 ### 2020
 
 October - Terry Brown - [Django web apps.](./2020_October/)
+
+### 2022
+
+June - Terry Brown [PyTest testing framework](./2022/June_testing/)
